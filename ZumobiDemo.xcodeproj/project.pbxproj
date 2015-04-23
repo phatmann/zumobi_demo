@@ -15,6 +15,7 @@
 		EA85643B1AE94C1700ABD385 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA8564391AE94C1700ABD385 /* LaunchScreen.xib */; };
 		EA8564471AE94C1700ABD385 /* ZumobiDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8564461AE94C1700ABD385 /* ZumobiDemoTests.swift */; };
 		EA8564511AE9591E00ABD385 /* EmbeddedDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8564501AE9591E00ABD385 /* EmbeddedDemoViewController.swift */; };
+		EA8564531AE96F6F00ABD385 /* SplitDetailsDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8564521AE96F6F00ABD385 /* SplitDetailsDemoController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		EA8564451AE94C1700ABD385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA8564461AE94C1700ABD385 /* ZumobiDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZumobiDemoTests.swift; sourceTree = "<group>"; };
 		EA8564501AE9591E00ABD385 /* EmbeddedDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmbeddedDemoViewController.swift; sourceTree = "<group>"; };
+		EA8564521AE96F6F00ABD385 /* SplitDetailsDemoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitDetailsDemoController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				EA8564391AE94C1700ABD385 /* LaunchScreen.xib */,
 				EA85642C1AE94C1700ABD385 /* Supporting Files */,
 				EA8564501AE9591E00ABD385 /* EmbeddedDemoViewController.swift */,
+				EA8564521AE96F6F00ABD385 /* SplitDetailsDemoController.swift */,
 			);
 			path = ZumobiDemo;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 				EA8564331AE94C1700ABD385 /* PushDemoViewController.swift in Sources */,
 				EA85642F1AE94C1700ABD385 /* AppDelegate.swift in Sources */,
 				EA8564311AE94C1700ABD385 /* ModalDemoViewController.swift in Sources */,
+				EA8564531AE96F6F00ABD385 /* SplitDetailsDemoController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
