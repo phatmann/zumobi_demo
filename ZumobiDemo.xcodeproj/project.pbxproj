@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		670D3980DD1FD53D72CF90FA /* libPods-ZumobiDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A266F0F7F332489438BC5061 /* libPods-ZumobiDemo.a */; };
+		EA17C8F91AE98399002DCBC2 /* pubkey.der in Resources */ = {isa = PBXBuildFile; fileRef = EA17C8F61AE98399002DCBC2 /* pubkey.der */; };
+		EA17C8FA1AE98399002DCBC2 /* zbimconfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA17C8F71AE98399002DCBC2 /* zbimconfig.plist */; };
+		EA17C8FB1AE98399002DCBC2 /* ZumobiContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA17C8F81AE98399002DCBC2 /* ZumobiContent.swift */; };
 		EA85642F1AE94C1700ABD385 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA85642E1AE94C1700ABD385 /* AppDelegate.swift */; };
 		EA8564311AE94C1700ABD385 /* ModalDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8564301AE94C1700ABD385 /* ModalDemoViewController.swift */; };
 		EA8564331AE94C1700ABD385 /* PushDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8564321AE94C1700ABD385 /* PushDemoViewController.swift */; };
@@ -15,7 +19,7 @@
 		EA85643B1AE94C1700ABD385 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA8564391AE94C1700ABD385 /* LaunchScreen.xib */; };
 		EA8564471AE94C1700ABD385 /* ZumobiDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8564461AE94C1700ABD385 /* ZumobiDemoTests.swift */; };
 		EA8564511AE9591E00ABD385 /* EmbeddedDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8564501AE9591E00ABD385 /* EmbeddedDemoViewController.swift */; };
-		EA8564531AE96F6F00ABD385 /* SplitDetailsDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8564521AE96F6F00ABD385 /* SplitDetailsDemoController.swift */; };
+		EA8564531AE96F6F00ABD385 /* SplitDetailsDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8564521AE96F6F00ABD385 /* SplitDetailsDemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +33,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		466B09D756528E656B6541CD /* Pods-ZumobiDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZumobiDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZumobiDemo/Pods-ZumobiDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A266F0F7F332489438BC5061 /* libPods-ZumobiDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZumobiDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7FCB77F34ED68AA39F3ED27 /* Pods-ZumobiDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZumobiDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZumobiDemo/Pods-ZumobiDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		EA17C8F41AE97E34002DCBC2 /* BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		EA17C8F61AE98399002DCBC2 /* pubkey.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = pubkey.der; sourceTree = "<group>"; };
+		EA17C8F71AE98399002DCBC2 /* zbimconfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = zbimconfig.plist; sourceTree = "<group>"; };
+		EA17C8F81AE98399002DCBC2 /* ZumobiContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZumobiContent.swift; sourceTree = "<group>"; };
 		EA8564291AE94C1700ABD385 /* ZumobiDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZumobiDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA85642D1AE94C1700ABD385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA85642E1AE94C1700ABD385 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,7 +52,7 @@
 		EA8564451AE94C1700ABD385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA8564461AE94C1700ABD385 /* ZumobiDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZumobiDemoTests.swift; sourceTree = "<group>"; };
 		EA8564501AE9591E00ABD385 /* EmbeddedDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmbeddedDemoViewController.swift; sourceTree = "<group>"; };
-		EA8564521AE96F6F00ABD385 /* SplitDetailsDemoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitDetailsDemoController.swift; sourceTree = "<group>"; };
+		EA8564521AE96F6F00ABD385 /* SplitDetailsDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitDetailsDemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				670D3980DD1FD53D72CF90FA /* libPods-ZumobiDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +74,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B0A7F11E85DE485A5738732 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A266F0F7F332489438BC5061 /* libPods-ZumobiDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E35D37E2D2A3E2C9E1988216 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7FCB77F34ED68AA39F3ED27 /* Pods-ZumobiDemo.debug.xcconfig */,
+				466B09D756528E656B6541CD /* Pods-ZumobiDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA17C8F51AE98399002DCBC2 /* Zumobi */ = {
+			isa = PBXGroup;
+			children = (
+				EA17C8F81AE98399002DCBC2 /* ZumobiContent.swift */,
+				EA17C8F61AE98399002DCBC2 /* pubkey.der */,
+				EA17C8F71AE98399002DCBC2 /* zbimconfig.plist */,
+			);
+			path = Zumobi;
+			sourceTree = "<group>";
+		};
 		EA8564201AE94C1700ABD385 = {
 			isa = PBXGroup;
 			children = (
 				EA85642B1AE94C1700ABD385 /* ZumobiDemo */,
 				EA8564431AE94C1700ABD385 /* ZumobiDemoTests */,
 				EA85642A1AE94C1700ABD385 /* Products */,
+				E35D37E2D2A3E2C9E1988216 /* Pods */,
+				0B0A7F11E85DE485A5738732 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,15 +124,13 @@
 		EA85642B1AE94C1700ABD385 /* ZumobiDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EA8564561AE97B7900ABD385 /* View Controllers */,
+				EA17C8F51AE98399002DCBC2 /* Zumobi */,
 				EA85642E1AE94C1700ABD385 /* AppDelegate.swift */,
-				EA8564301AE94C1700ABD385 /* ModalDemoViewController.swift */,
-				EA8564321AE94C1700ABD385 /* PushDemoViewController.swift */,
 				EA8564341AE94C1700ABD385 /* Main.storyboard */,
-				EA8564371AE94C1700ABD385 /* Images.xcassets */,
 				EA8564391AE94C1700ABD385 /* LaunchScreen.xib */,
+				EA8564371AE94C1700ABD385 /* Images.xcassets */,
 				EA85642C1AE94C1700ABD385 /* Supporting Files */,
-				EA8564501AE9591E00ABD385 /* EmbeddedDemoViewController.swift */,
-				EA8564521AE96F6F00ABD385 /* SplitDetailsDemoController.swift */,
 			);
 			path = ZumobiDemo;
 			sourceTree = "<group>";
@@ -99,6 +138,7 @@
 		EA85642C1AE94C1700ABD385 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EA17C8F41AE97E34002DCBC2 /* BridgingHeader.h */,
 				EA85642D1AE94C1700ABD385 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -121,6 +161,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		EA8564561AE97B7900ABD385 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EA8564301AE94C1700ABD385 /* ModalDemoViewController.swift */,
+				EA8564321AE94C1700ABD385 /* PushDemoViewController.swift */,
+				EA8564501AE9591E00ABD385 /* EmbeddedDemoViewController.swift */,
+				EA8564521AE96F6F00ABD385 /* SplitDetailsDemoViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -128,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA85644A1AE94C1700ABD385 /* Build configuration list for PBXNativeTarget "ZumobiDemo" */;
 			buildPhases = (
+				A285F5D13E92801794674799 /* Check Pods Manifest.lock */,
 				EA8564251AE94C1700ABD385 /* Sources */,
 				EA8564261AE94C1700ABD385 /* Frameworks */,
 				EA8564271AE94C1700ABD385 /* Resources */,
+				EA329CE813C62F3834470BB4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -204,6 +257,8 @@
 				EA8564361AE94C1700ABD385 /* Main.storyboard in Resources */,
 				EA85643B1AE94C1700ABD385 /* LaunchScreen.xib in Resources */,
 				EA8564381AE94C1700ABD385 /* Images.xcassets in Resources */,
+				EA17C8FA1AE98399002DCBC2 /* zbimconfig.plist in Resources */,
+				EA17C8F91AE98399002DCBC2 /* pubkey.der in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +271,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A285F5D13E92801794674799 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EA329CE813C62F3834470BB4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZumobiDemo/Pods-ZumobiDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EA8564251AE94C1700ABD385 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -225,7 +313,8 @@
 				EA8564331AE94C1700ABD385 /* PushDemoViewController.swift in Sources */,
 				EA85642F1AE94C1700ABD385 /* AppDelegate.swift in Sources */,
 				EA8564311AE94C1700ABD385 /* ModalDemoViewController.swift in Sources */,
-				EA8564531AE96F6F00ABD385 /* SplitDetailsDemoController.swift in Sources */,
+				EA8564531AE96F6F00ABD385 /* SplitDetailsDemoViewController.swift in Sources */,
+				EA17C8FB1AE98399002DCBC2 /* ZumobiContent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,21 +441,25 @@
 		};
 		EA85644B1AE94C1700ABD385 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7FCB77F34ED68AA39F3ED27 /* Pods-ZumobiDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZumobiDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/ZumobiDemo/BridgingHeader.h";
 			};
 			name = Debug;
 		};
 		EA85644C1AE94C1700ABD385 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 466B09D756528E656B6541CD /* Pods-ZumobiDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZumobiDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/ZumobiDemo/BridgingHeader.h";
 			};
 			name = Release;
 		};
@@ -423,6 +516,7 @@
 				EA85644C1AE94C1700ABD385 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA85644D1AE94C1700ABD385 /* Build configuration list for PBXNativeTarget "ZumobiDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -431,6 +525,7 @@
 				EA85644F1AE94C1700ABD385 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,7 +7,7 @@
         <!--Modal-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController id="9pv-A4-QxB" customClass="ModalViewController" customModule="ZumobiDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9pv-A4-QxB" customClass="ModalDemoViewController" customModule="ZumobiDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
                         <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
@@ -16,18 +16,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Modal" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
-                                <rect key="frame" x="251" y="279" width="99" height="42"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SC9-uj-DFZ" userLabel="Show Content Button">
+                                <rect key="frame" x="237" y="282" width="126" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Show Content">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showButtonTapped" destination="9pv-A4-QxB" eventType="touchUpInside" id="Cuv-Ra-leV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="6BV-lF-sBN"/>
-                            <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" id="exm-UA-ej4"/>
+                            <constraint firstAttribute="centerX" secondItem="SC9-uj-DFZ" secondAttribute="centerX" id="5Cx-iv-dhp"/>
+                            <constraint firstAttribute="centerY" secondItem="SC9-uj-DFZ" secondAttribute="centerY" id="YQd-np-vUS"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Modal" image="first" id="acW-dT-cKf"/>
@@ -39,7 +42,7 @@
         <!--Push-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
-                <viewController id="8rJ-Kc-sve" userLabel="Push" customClass="PushViewController" customModule="ZumobiDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="8rJ-Kc-sve" userLabel="Push" customClass="PushDemoViewController" customModule="ZumobiDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
                         <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
@@ -142,7 +145,7 @@
         <!--Split Detail-->
         <scene sceneID="dNM-jj-lkc">
             <objects>
-                <viewController id="7MJ-ex-QpV" userLabel="Split Detail" customClass="SplitDetailsDemoController" customModule="ZumobiDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="7MJ-ex-QpV" userLabel="Split Detail" customClass="SplitDetailsDemoViewController" customModule="ZumobiDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hGM-C6-Fdf"/>
                         <viewControllerLayoutGuide type="bottom" id="thu-Pj-pkc"/>

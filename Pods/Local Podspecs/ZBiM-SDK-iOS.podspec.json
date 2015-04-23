@@ -1,0 +1,78 @@
+{
+  "name": "ZBiM-SDK-iOS",
+  "version": "1.1.9",
+  "summary": "The ZBiM SDK for iOS handles content marketing in your app",
+  "description": "                       The ZBiM SDK for iOS handles all the issues surrounding getting content securely into your existing application. The SDK\n                       and ZBiM service manages all the presentation, content management, metrics, and security for you through\n                       an easy to use portal.\n",
+  "homepage": "http://www.zumobi.com",
+  "license": "MIT",
+  "authors": {
+    "Zumobi": "zbim-support@zumobi.com"
+  },
+  "source": {
+    "git": "https://github.com/zumobi/zbim-sdk-ios.git",
+    "tag": "1.1.9"
+  },
+  "social_media_url": "https://twitter.com/zumobi",
+  "documentation_url": "https://github.com/zumobi/zbim-sdk-ios/blob/master/ZBiM%20Documentation.pdf?raw=true",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "vendored_libraries": "Pod/Libraries/libzbim.a",
+  "resources": "Pod/Resources/zbimResources.bundle",
+  "source_files": [
+    "Pod/Classes/*.{h,m}",
+    "Pod/Classes/**/*.{h,m}"
+  ],
+  "public_header_files": "Pod/Classes/*.h",
+  "frameworks": [
+    "Accounts",
+    "AdSupport",
+    "CoreGraphics",
+    "CoreLocation",
+    "CoreTelephony",
+    "EventKit",
+    "EventKitUI",
+    "Foundation",
+    "ImageIO",
+    "MediaPlayer",
+    "MessageUI",
+    "PassKit",
+    "Security",
+    "Social",
+    "StoreKit",
+    "SystemConfiguration",
+    "Twitter",
+    "UIKit"
+  ],
+  "libraries": [
+    "sqlite3",
+    "z"
+  ],
+  "dependencies": {
+    "Bolts": [
+      "~> 1.1.0"
+    ],
+    "Mantle": [
+      "~> 1.4"
+    ],
+    "TMCache": [
+      "~> 1.2.1"
+    ],
+    "XMLDictionary": [
+      "~> 1.4.0"
+    ],
+    "UICKeyChainStore": [
+      "~> 1.0"
+    ],
+    "Reachability": [
+      "~> 3.1"
+    ],
+    "GZIP": [
+      "~> 1.0.3"
+    ],
+    "FMDB": [
+      "~> 2.4.0"
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+PODS:
+  - Bolts (1.1.5):
+    - Bolts/AppLinks (= 1.1.5)
+    - Bolts/Tasks (= 1.1.5)
+  - Bolts/AppLinks (1.1.5):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.1.5)
+  - FMDB (2.4):
+    - FMDB/standard (= 2.4)
+  - FMDB/common (2.4)
+  - FMDB/standard (2.4):
+    - FMDB/common
+  - GZIP (1.0.3)
+  - Mantle (1.5.4):
+    - Mantle/extobjc (= 1.5.4)
+  - Mantle/extobjc (1.5.4)
+  - Reachability (3.2)
+  - TMCache (1.2.4)
+  - UICKeyChainStore (1.1.1)
+  - XMLDictionary (1.4)
+  - ZBiM-SDK-iOS (1.1.9):
+    - Bolts (~> 1.1.0)
+    - FMDB (~> 2.4.0)
+    - GZIP (~> 1.0.3)
+    - Mantle (~> 1.4)
+    - Reachability (~> 3.1)
+    - TMCache (~> 1.2.1)
+    - UICKeyChainStore (~> 1.0)
+    - XMLDictionary (~> 1.4.0)
+
+DEPENDENCIES:
+  - ZBiM-SDK-iOS (from `https://github.com/zumobi/zbim-sdk-ios.git`, tag `1.1.9`)
+
+EXTERNAL SOURCES:
+  ZBiM-SDK-iOS:
+    :git: https://github.com/zumobi/zbim-sdk-ios.git
+    :tag: 1.1.9
+
+CHECKOUT OPTIONS:
+  ZBiM-SDK-iOS:
+    :git: https://github.com/zumobi/zbim-sdk-ios.git
+    :tag: 1.1.9
+
+SPEC CHECKSUMS:
+  Bolts: aac24961496d504aa56fc267cde95162a71bac39
+  FMDB: d274d9ff773415735022ac57bfba9f6002f9fed8
+  GZIP: f0863fda354e8f83316508c0a2c7bbe385e39129
+  Mantle: 60acd0cd363e27d945bda0a6b8e90577112d28f3
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  TMCache: a93984b045a5ee84bd8941bd5e0b54296059cc52
+  UICKeyChainStore: 891bcd2fe687c92db8e648cba035c4e662ffa43e
+  XMLDictionary: f9f51601ba76678b594ab485f2b00ec1fed23724
+  ZBiM-SDK-iOS: e273f20f6a871aebcfc139713810dc8ec36749fd
+
+COCOAPODS: 0.36.0.beta.1

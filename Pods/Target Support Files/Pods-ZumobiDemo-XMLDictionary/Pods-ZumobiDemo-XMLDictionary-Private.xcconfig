@@ -1,0 +1,5 @@
+#include "Pods-ZumobiDemo-XMLDictionary.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/XMLDictionary" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Bolts" "${PODS_ROOT}/Headers/Public/FMDB" "${PODS_ROOT}/Headers/Public/GZIP" "${PODS_ROOT}/Headers/Public/Mantle" "${PODS_ROOT}/Headers/Public/Reachability" "${PODS_ROOT}/Headers/Public/TMCache" "${PODS_ROOT}/Headers/Public/UICKeyChainStore" "${PODS_ROOT}/Headers/Public/XMLDictionary" "${PODS_ROOT}/Headers/Public/ZBiM-SDK-iOS"
+OTHER_LDFLAGS = -ObjC
+PODS_ROOT = ${SRCROOT}
