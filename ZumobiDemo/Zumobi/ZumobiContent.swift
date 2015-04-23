@@ -11,8 +11,20 @@ class ZumobiContent {
         activateDefaultUser()
     }
     
-    func present(#viewController: UIViewController) {
+    func presentModally(#viewController: UIViewController) {
         ZBiM.presentHubWithPresentingViewController(viewController, completion: nil)
+    }
+    
+    func present(#parentView: UIView, parentViewController: UIViewController) -> ZBiMContentHubDelegate {
+        return ZBiM.presentHubWithParentView(parentView, parentViewController: parentViewController, completion: nil)
+    }
+    
+    func present(#hub: ZBiMContentHubDelegate) {
+        ZBiM.presentExistingContentHub(hub, completion: nil)
+    }
+    
+    func dismiss(hub: ZBiMContentHubDelegate) {
+        hub.dismiss(nil)
     }
     
     private func activateDefaultUser() {

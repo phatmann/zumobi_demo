@@ -3,6 +3,10 @@
 
 import UIKit
 
-class EmbeddedDemoViewController: UIViewController {
-
+class EmbeddedDemoViewController: HubViewController {
+    override func hubView() -> UIView {
+        return contentView
+    }
+    
+    @IBOutlet weak var contentView: UIView!
 }

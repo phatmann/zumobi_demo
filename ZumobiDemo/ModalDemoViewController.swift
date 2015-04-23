@@ -4,12 +4,8 @@
 import UIKit
 
 class ModalDemoViewController: UIViewController {
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-    
     @IBAction func showButtonTapped() {
-        SharedZumobiContent.present(viewController: self)
+        SharedZumobiContent.presentModally(viewController: self)
     }
 }
 
