@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		EA85642F1AE94C1700ABD385 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA85642E1AE94C1700ABD385 /* AppDelegate.swift */; };
-		EA8564311AE94C1700ABD385 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8564301AE94C1700ABD385 /* FirstViewController.swift */; };
-		EA8564331AE94C1700ABD385 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8564321AE94C1700ABD385 /* SecondViewController.swift */; };
+		EA8564311AE94C1700ABD385 /* ModalDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8564301AE94C1700ABD385 /* ModalDemoViewController.swift */; };
+		EA8564331AE94C1700ABD385 /* PushDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8564321AE94C1700ABD385 /* PushDemoViewController.swift */; };
 		EA8564361AE94C1700ABD385 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA8564341AE94C1700ABD385 /* Main.storyboard */; };
 		EA8564381AE94C1700ABD385 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA8564371AE94C1700ABD385 /* Images.xcassets */; };
 		EA85643B1AE94C1700ABD385 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA8564391AE94C1700ABD385 /* LaunchScreen.xib */; };
 		EA8564471AE94C1700ABD385 /* ZumobiDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8564461AE94C1700ABD385 /* ZumobiDemoTests.swift */; };
+		EA8564511AE9591E00ABD385 /* EmbeddedDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8564501AE9591E00ABD385 /* EmbeddedDemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,14 +31,15 @@
 		EA8564291AE94C1700ABD385 /* ZumobiDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZumobiDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA85642D1AE94C1700ABD385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA85642E1AE94C1700ABD385 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EA8564301AE94C1700ABD385 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		EA8564321AE94C1700ABD385 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		EA8564301AE94C1700ABD385 /* ModalDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalDemoViewController.swift; sourceTree = "<group>"; };
+		EA8564321AE94C1700ABD385 /* PushDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushDemoViewController.swift; sourceTree = "<group>"; };
 		EA8564351AE94C1700ABD385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA8564371AE94C1700ABD385 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EA85643A1AE94C1700ABD385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		EA8564401AE94C1700ABD385 /* ZumobiDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZumobiDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA8564451AE94C1700ABD385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA8564461AE94C1700ABD385 /* ZumobiDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZumobiDemoTests.swift; sourceTree = "<group>"; };
+		EA8564501AE9591E00ABD385 /* EmbeddedDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmbeddedDemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +82,13 @@
 			isa = PBXGroup;
 			children = (
 				EA85642E1AE94C1700ABD385 /* AppDelegate.swift */,
-				EA8564301AE94C1700ABD385 /* FirstViewController.swift */,
-				EA8564321AE94C1700ABD385 /* SecondViewController.swift */,
+				EA8564301AE94C1700ABD385 /* ModalDemoViewController.swift */,
+				EA8564321AE94C1700ABD385 /* PushDemoViewController.swift */,
 				EA8564341AE94C1700ABD385 /* Main.storyboard */,
 				EA8564371AE94C1700ABD385 /* Images.xcassets */,
 				EA8564391AE94C1700ABD385 /* LaunchScreen.xib */,
 				EA85642C1AE94C1700ABD385 /* Supporting Files */,
+				EA8564501AE9591E00ABD385 /* EmbeddedDemoViewController.swift */,
 			);
 			path = ZumobiDemo;
 			sourceTree = "<group>";
@@ -215,9 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA8564331AE94C1700ABD385 /* SecondViewController.swift in Sources */,
+				EA8564511AE9591E00ABD385 /* EmbeddedDemoViewController.swift in Sources */,
+				EA8564331AE94C1700ABD385 /* PushDemoViewController.swift in Sources */,
 				EA85642F1AE94C1700ABD385 /* AppDelegate.swift in Sources */,
-				EA8564311AE94C1700ABD385 /* FirstViewController.swift in Sources */,
+				EA8564311AE94C1700ABD385 /* ModalDemoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
