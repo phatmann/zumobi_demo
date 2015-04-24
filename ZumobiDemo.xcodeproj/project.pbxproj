@@ -24,6 +24,7 @@
 		EA8564471AE94C1700ABD385 /* ZumobiDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8564461AE94C1700ABD385 /* ZumobiDemoTests.swift */; };
 		EA8564511AE9591E00ABD385 /* EmbeddedDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8564501AE9591E00ABD385 /* EmbeddedDemoViewController.swift */; };
 		EA8564531AE96F6F00ABD385 /* SplitDetailsDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8564521AE96F6F00ABD385 /* SplitDetailsDemoViewController.swift */; };
+		EAC6A6D31AEA6C12004FD7BB /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC6A6D21AEA6C12004FD7BB /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		EA8564461AE94C1700ABD385 /* ZumobiDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZumobiDemoTests.swift; sourceTree = "<group>"; };
 		EA8564501AE9591E00ABD385 /* EmbeddedDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmbeddedDemoViewController.swift; sourceTree = "<group>"; };
 		EA8564521AE96F6F00ABD385 /* SplitDetailsDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitDetailsDemoViewController.swift; sourceTree = "<group>"; };
+		EAC6A6D21AEA6C12004FD7BB /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +182,7 @@
 				EA442FBA1AEA59420004D75F /* SplitMasterDemoViewController.swift */,
 				EA8564521AE96F6F00ABD385 /* SplitDetailsDemoViewController.swift */,
 				EA17C8FE1AE99FE5002DCBC2 /* HubViewController.swift */,
+				EAC6A6D21AEA6C12004FD7BB /* TabBarController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -323,6 +326,7 @@
 			files = (
 				EA442FBD1AEA5DAB0004D75F /* SplitDemoViewController.swift in Sources */,
 				EA17C8FF1AE99FE5002DCBC2 /* HubViewController.swift in Sources */,
+				EAC6A6D31AEA6C12004FD7BB /* TabBarController.swift in Sources */,
 				EA8564511AE9591E00ABD385 /* EmbeddedDemoViewController.swift in Sources */,
 				EA8564331AE94C1700ABD385 /* PushDemoViewController.swift in Sources */,
 				EA85642F1AE94C1700ABD385 /* AppDelegate.swift in Sources */,

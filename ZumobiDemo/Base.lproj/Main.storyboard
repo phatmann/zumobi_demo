@@ -134,7 +134,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
-                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                <tabBarController id="49e-Tb-3d3" customClass="TabBarController" customModule="ZumobiDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
@@ -322,7 +322,7 @@
                             <outlet property="delegate" destination="94w-bA-GJU" id="WUp-5B-zD5"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Split" id="Flb-nx-zFd"/>
+                    <navigationItem key="navigationItem" title="Tags" id="Flb-nx-zFd"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SY3-tS-3hK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
