@@ -8,7 +8,7 @@ class HubViewController: UIViewController {
         super.viewWillAppear(animated)
         
         if hub == nil {
-            hub = SharedZumobiContent.present(parentView: hubView(), parentViewController: self)
+            presentNewHub()
         } else {
             SharedZumobiContent.present(hub: hub!)
         }
@@ -17,14 +17,26 @@ class HubViewController: UIViewController {
     override func viewWillDisappear(animated: Bool) {
         super.viewWillDisappear(animated)
         
-        if hub != nil {
-            SharedZumobiContent.dismiss(hub!)
-        }
+        
     }
     
     func hubView() -> UIView {
         return view
     }
     
+    var tags: [String]? {
+        didSet {
+            presentNewHub()
+        }
+    }
+    
     private var hub: ZBiMContentHubDelegate?
+    
+    private func presentNewHub() {
+        if hub != nil {
+            SharedZumobiContent.dismiss(hub!)
+        }
+        
+        hub = SharedZumobiContent.present(parentView: hubView(), parentViewController: self, tags: tags)
+    }
 }

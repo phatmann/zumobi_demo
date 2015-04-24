@@ -11,12 +11,20 @@ class ZumobiContent {
         activateDefaultUser()
     }
     
-    func presentModally(#viewController: UIViewController) {
-        ZBiM.presentHubWithPresentingViewController(viewController, completion: nil)
+    func presentModally(#viewController: UIViewController, tags: [String]? = nil) {
+        if tags == nil {
+            ZBiM.presentHubWithPresentingViewController(viewController, completion: nil)
+        } else {
+            ZBiM.presentHubWithTags(tags!, presentingViewController: viewController, completion: nil)
+        }
     }
     
-    func present(#parentView: UIView, parentViewController: UIViewController) -> ZBiMContentHubDelegate {
-        return ZBiM.presentHubWithParentView(parentView, parentViewController: parentViewController, completion: nil)
+    func present(#parentView: UIView, parentViewController: UIViewController, tags: [String]? = nil) -> ZBiMContentHubDelegate {
+        if tags == nil {
+            return ZBiM.presentHubWithParentView(parentView, parentViewController: parentViewController, completion: nil)
+        } else {
+            return ZBiM.presentHubWithTags(tags, parentView: parentView, parentViewController: parentViewController, completion: nil)
+        }
     }
     
     func present(#hub: ZBiMContentHubDelegate) {

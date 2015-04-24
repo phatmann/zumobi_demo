@@ -3,7 +3,7 @@
 
 import UIKit
 
-class SplitDetailsDemoViewController: UIViewController {
+class SplitDetailsDemoViewController: HubViewController {
     override func viewDidLoad() {
         navigationItem.leftItemsSupplementBackButton = true
         navigationItem.leftBarButtonItem = self.splitViewController?.displayModeButtonItem()
