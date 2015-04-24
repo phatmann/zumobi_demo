@@ -11,8 +11,10 @@
 		EA17C8F91AE98399002DCBC2 /* pubkey.der in Resources */ = {isa = PBXBuildFile; fileRef = EA17C8F61AE98399002DCBC2 /* pubkey.der */; };
 		EA17C8FA1AE98399002DCBC2 /* zbimconfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA17C8F71AE98399002DCBC2 /* zbimconfig.plist */; };
 		EA17C8FB1AE98399002DCBC2 /* ZumobiContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA17C8F81AE98399002DCBC2 /* ZumobiContent.swift */; };
-		EA17C8FD1AE99134002DCBC2 /* PushDemoContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA17C8FC1AE99134002DCBC2 /* PushDemoContentViewController.swift */; };
+		EA17C8FD1AE99134002DCBC2 /* PushContentDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA17C8FC1AE99134002DCBC2 /* PushContentDemoViewController.swift */; };
 		EA17C8FF1AE99FE5002DCBC2 /* HubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA17C8FE1AE99FE5002DCBC2 /* HubViewController.swift */; };
+		EA442FBB1AEA59420004D75F /* SplitMasterDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA442FBA1AEA59420004D75F /* SplitMasterDemoViewController.swift */; };
+		EA442FBD1AEA5DAB0004D75F /* SplitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA442FBC1AEA5DAB0004D75F /* SplitDemoViewController.swift */; };
 		EA85642F1AE94C1700ABD385 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA85642E1AE94C1700ABD385 /* AppDelegate.swift */; };
 		EA8564311AE94C1700ABD385 /* ModalDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8564301AE94C1700ABD385 /* ModalDemoViewController.swift */; };
 		EA8564331AE94C1700ABD385 /* PushDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8564321AE94C1700ABD385 /* PushDemoViewController.swift */; };
@@ -42,8 +44,10 @@
 		EA17C8F61AE98399002DCBC2 /* pubkey.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = pubkey.der; sourceTree = "<group>"; };
 		EA17C8F71AE98399002DCBC2 /* zbimconfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = zbimconfig.plist; sourceTree = "<group>"; };
 		EA17C8F81AE98399002DCBC2 /* ZumobiContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZumobiContent.swift; sourceTree = "<group>"; };
-		EA17C8FC1AE99134002DCBC2 /* PushDemoContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushDemoContentViewController.swift; sourceTree = "<group>"; };
+		EA17C8FC1AE99134002DCBC2 /* PushContentDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushContentDemoViewController.swift; sourceTree = "<group>"; };
 		EA17C8FE1AE99FE5002DCBC2 /* HubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HubViewController.swift; sourceTree = "<group>"; };
+		EA442FBA1AEA59420004D75F /* SplitMasterDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitMasterDemoViewController.swift; sourceTree = "<group>"; };
+		EA442FBC1AEA5DAB0004D75F /* SplitDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitDemoViewController.swift; sourceTree = "<group>"; };
 		EA8564291AE94C1700ABD385 /* ZumobiDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZumobiDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA85642D1AE94C1700ABD385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA85642E1AE94C1700ABD385 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -170,8 +174,10 @@
 			children = (
 				EA8564301AE94C1700ABD385 /* ModalDemoViewController.swift */,
 				EA8564321AE94C1700ABD385 /* PushDemoViewController.swift */,
-				EA17C8FC1AE99134002DCBC2 /* PushDemoContentViewController.swift */,
+				EA17C8FC1AE99134002DCBC2 /* PushContentDemoViewController.swift */,
 				EA8564501AE9591E00ABD385 /* EmbeddedDemoViewController.swift */,
+				EA442FBC1AEA5DAB0004D75F /* SplitDemoViewController.swift */,
+				EA442FBA1AEA59420004D75F /* SplitMasterDemoViewController.swift */,
 				EA8564521AE96F6F00ABD385 /* SplitDetailsDemoViewController.swift */,
 				EA17C8FE1AE99FE5002DCBC2 /* HubViewController.swift */,
 			);
@@ -315,14 +321,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA442FBD1AEA5DAB0004D75F /* SplitDemoViewController.swift in Sources */,
 				EA17C8FF1AE99FE5002DCBC2 /* HubViewController.swift in Sources */,
 				EA8564511AE9591E00ABD385 /* EmbeddedDemoViewController.swift in Sources */,
 				EA8564331AE94C1700ABD385 /* PushDemoViewController.swift in Sources */,
 				EA85642F1AE94C1700ABD385 /* AppDelegate.swift in Sources */,
 				EA8564311AE94C1700ABD385 /* ModalDemoViewController.swift in Sources */,
-				EA17C8FD1AE99134002DCBC2 /* PushDemoContentViewController.swift in Sources */,
+				EA17C8FD1AE99134002DCBC2 /* PushContentDemoViewController.swift in Sources */,
 				EA8564531AE96F6F00ABD385 /* SplitDetailsDemoViewController.swift in Sources */,
 				EA17C8FB1AE98399002DCBC2 /* ZumobiContent.swift in Sources */,
+				EA442FBB1AEA59420004D75F /* SplitMasterDemoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

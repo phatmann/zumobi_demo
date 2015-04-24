@@ -3,7 +3,7 @@
 
 import UIKit
 
-class PushDemoContentViewController: HubViewController {
+class PushContentDemoViewController: HubViewController {
 
 }
 

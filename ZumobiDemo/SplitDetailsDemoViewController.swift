@@ -5,6 +5,7 @@ import UIKit
 
 class SplitDetailsDemoViewController: HubViewController {
     override func viewDidLoad() {
+        super.viewDidLoad()
         navigationItem.leftItemsSupplementBackButton = true
         navigationItem.leftBarButtonItem = self.splitViewController?.displayModeButtonItem()
     }
