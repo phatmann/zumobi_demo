@@ -46,7 +46,7 @@
                             <constraint firstItem="uF2-1s-1Hy" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" constant="40" id="mUf-33-bFa"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Modal" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Modal" image="modal" id="acW-dT-cKf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
@@ -156,7 +156,7 @@
         <scene sceneID="QLg-Qz-Srn">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Mie-YV-70X" userLabel="Push Navigation" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Push" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Push" image="push" id="cPa-gy-q4n"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="STW-TB-7Oj">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -210,7 +210,7 @@
                             <constraint firstItem="4VQ-kT-h7P" firstAttribute="leading" secondItem="R7q-qw-Adi" secondAttribute="leadingMargin" constant="20" id="tnz-Qh-AHQ"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Embedded" image="second" id="O5v-DL-l4L"/>
+                    <tabBarItem key="tabBarItem" title="Embedded" image="embed" id="O5v-DL-l4L"/>
                     <connections>
                         <outlet property="contentView" destination="4VQ-kT-h7P" id="p2i-X4-ow5"/>
                     </connections>
@@ -348,7 +348,7 @@
         <scene sceneID="U91-KY-7Hf">
             <objects>
                 <splitViewController id="qXD-DJ-CXr" userLabel="Split" customClass="SplitDemoViewController" customModule="ZumobiDemo" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Split View" image="first" id="FII-jC-ga8"/>
+                    <tabBarItem key="tabBarItem" title="Split" image="split" id="FII-jC-ga8"/>
                     <connections>
                         <segue destination="hph-gA-UhZ" kind="relationship" relationship="masterViewController" id="t3U-Yh-7Yc"/>
                         <segue destination="BZt-5H-kJB" kind="relationship" relationship="detailViewController" id="5VH-dv-cyb"/>
@@ -378,8 +378,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="first" width="30" height="30"/>
-        <image name="second" width="30" height="30"/>
+        <image name="embed" width="30" height="30"/>
+        <image name="modal" width="30" height="30"/>
+        <image name="push" width="30" height="30"/>
+        <image name="split" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="5VH-dv-cyb"/>
